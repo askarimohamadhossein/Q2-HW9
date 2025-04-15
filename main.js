@@ -24,6 +24,7 @@ input.addEventListener("change", function (event) {
     });
     if (!hasCapital) {
       const pTag = document.createElement("p");
+      pTag.setAttribute("class", "text");
       pTag.textContent = "Insert one capital letter";
       document.body.appendChild(pTag);
     } else {

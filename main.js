@@ -10,6 +10,7 @@ input.addEventListener("change", function (event) {
     pTage.textContent =
       "Min 8 characters with at insert one capital letter , a number and special character";
     document.body.appendChild(pTage);
+    pTage.setAttribute("class", "text");
     //     pTage.appendChild(para);
   } else if (valueInput) {
     // valueInput.split("");
@@ -24,6 +25,10 @@ input.addEventListener("change", function (event) {
     if (!hasCapital) {
       const pTag = document.createElement("p");
       pTag.textContent = "Insert one capital letter";
+      document.body.appendChild(pTag);
+    } else {
+      const pTag = document.createElement("p");
+      pTag.textContent = "password is good(:";
       document.body.appendChild(pTag);
     }
   }

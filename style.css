@@ -24,3 +24,9 @@
   border: none;
   border-bottom: 2px solid gray;
 }
+
+.wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

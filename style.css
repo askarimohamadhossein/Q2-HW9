@@ -19,7 +19,8 @@
   margin-top: 20px;
 }
 
-input {
+.input-btn {
+  width: 35%;
   border: none;
   border-bottom: 2px solid gray;
 }

@@ -1,14 +1,14 @@
 const input = document.getElementById("input");
-
-input.addEventListener("change", function (event) {
+input.style.input.addEventListener("change", function (event) {
   const valueInputLenght = event.target.value.length;
   const valueInput = event.target.value;
-  console.log(typeof event.target.value);
+  // console.log(typeof event.target.value);
 
   if (valueInputLenght < 8) {
     const pTage = document.createElement("p");
     pTage.textContent =
       "Min 8 characters with at insert one capital letter , a number and special character";
+    // pTage = ""
     document.body.appendChild(pTage);
     pTage.setAttribute("class", "text");
     //     pTage.appendChild(para);

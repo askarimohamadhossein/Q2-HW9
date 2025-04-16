@@ -1,4 +1,5 @@
 const input = document.getElementById("input");
+// input.style.borderBottom = "solid 1px gray";
 input.style.input.addEventListener("change", function (event) {
   const valueInputLenght = event.target.value.length;
   const valueInput = event.target.value;

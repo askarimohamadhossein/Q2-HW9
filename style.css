@@ -18,3 +18,8 @@
   width: 35%;
   margin-top: 20px;
 }
+
+input {
+  border: none;
+  border-bottom: 2px solid gray;
+}

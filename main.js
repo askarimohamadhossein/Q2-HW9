@@ -47,3 +47,7 @@ passwordInput.addEventListener("input", function () {
     toggleButton.style.color = "gray";
   }
 });
+
+toggleButton.addEventListener("click", () => {
+  passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+});

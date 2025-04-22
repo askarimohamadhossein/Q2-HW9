@@ -20,5 +20,19 @@
         It is 2020, but passwords are still a thing.
       </p>
     </div>
+    <div class="mt-4 relative">
+      <input
+        type="password"
+        id="password"
+        class="w-full border-b-2 border-blue-500 p-2 text-lg focus:outline-none"
+        placeholder="Enter password"
+      />
+      <button id="togglePassword" class="absolute right-2 top-2 text-gray-500">
+        <span class="material-symbols-outlined"> visibility_off </span>
+      </button>
+    </div>
+    <p id="errorMessage" class="text-red-500 text-sm mt-2 hidden">
+      Password input is empty.
+    </p>
   </body>
 </html>
